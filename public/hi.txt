@@ -1,0 +1,10 @@
+commit
+git init
+git remote add origin https://github.com/Debadrita2002/Notepad-backend-.git
+git remote -v
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push origin main --force
+
+
