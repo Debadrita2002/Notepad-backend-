@@ -11,9 +11,10 @@ app.set('view engine','ejs');
 app.get("/", function(req,res){
     res.render("index");
 });
-app.get("/profile/:username", function(req,res){ // colon means this part is dynamic
-    res.send("index");
+/*app.get("/profile/:username", function(req,res){ // colon means this part is dynamic
+    res.send(`welcome, ${req.params.username}`);
 });
-app.listen(3000,function(){
-    console.log("ohooo running");
-}) 
+app.get("/profile/:username/:age", function(req,res){ // colon means this part is dynamic
+    res.send(`welcome ${req.params.username} of  age ${req.params.age}`);
+});*/
+app.listen(3000) 
