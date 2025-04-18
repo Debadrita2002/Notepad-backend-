@@ -46,4 +46,5 @@ app.post("/create", function(req,res){
 app.get("/profile/:username/:age", function(req,res){ // colon means this part is dynamic
     res.send(`welcome ${req.params.username} of  age ${req.params.age}`);
 });*/
-app.listen(3000) 
+
+app.listen(3000);
